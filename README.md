@@ -15,19 +15,21 @@ Install Nextflow
 
 ## Step 1: Run using the SLURM script
 
-  sbatch run_nextflow_blast_SLURM.sh x.fasta
+sbatch run_nextflow_blast_SLURM.sh x.fasta
   
 
 ## Step 2: Polish the output
 
-# Reformat the output file to get a) counts of best hits, and b) exclude nextflow runtime crap
-  bash polish_nextflow_blast_output.sh
+Reformat the output file to get a) counts of best hits, and b) exclude nextflow runtime crap
+
+bash polish_nextflow_blast_output.sh
   
 
 ## Step 3: Do ID annotation on the polished data
 
-# Requires ~30 GB of RAM
-  bash runbatch_NextflowBlastIDmapper.sh
+Requires ~30 GB of RAM
+
+bash runbatch_NextflowBlastIDmapper.sh
   
 
 
