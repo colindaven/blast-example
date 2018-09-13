@@ -1,6 +1,8 @@
 # Blast example 
 
-A basic Blast pipeline using Nextflow. Here a working SLURM example to blast against the nt database (you'll need to download nt separately).
+A practical application of the very basic Blast pipeline using Nextflow. Here a working SLURM example to blast against the nt database (you'll need to download nt separately).
+
+Use at your own risk etc, this is just a rough demo which might help you get things working on your SLURM cluster.
 
 [![Build Status](https://travis-ci.org/nextflow-io/blast-example.svg?branch=master)](https://travis-ci.org/nextflow-io/blast-example)
 
